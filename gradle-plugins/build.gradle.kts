@@ -14,6 +14,7 @@ subprojects {
     version = BuildProperties.deployVersion(project)
 
     repositories {
+        mavenLocal()
         mavenCentral()
         google()
         mavenLocal()

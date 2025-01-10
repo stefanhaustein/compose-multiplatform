@@ -8,6 +8,7 @@ subprojects {
     version = project.property("deploy.version") as String
 
     repositories {
+        mavenLocal()
         mavenCentral()
     }
 

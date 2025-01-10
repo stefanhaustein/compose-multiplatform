@@ -8,6 +8,12 @@ plugins {
 
 version = "1.0-SNAPSHOT"
 
+configurations.all {
+    resolutionStrategy {
+        force("org.jetbrains.compose.runtime:runtime:0.0.0-SNAPSHOT")
+    }
+}
+
 repositories {
     mavenLocal()
     google()
